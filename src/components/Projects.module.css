@@ -1,0 +1,42 @@
+.projects{
+    min-height: 100vh;
+    display: flex;
+    flex-flow:column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.projects h2{
+    font-size: 3rem;
+}
+
+.container{
+    margin: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    border: 1px solid black;
+    border-radius:1.2rem;
+    margin: 2rem;
+    width: 20rem;
+    height:20rem;
+    overflow: hidden;
+}
+
+.container div img{
+    width:20rem;
+    height: 14rem;
+    object-fit: cover;
+}
+
+.items-content{
+    padding:0 0.7rem;
+}
+
+.items-content a{
+    text-decoration: none;
+}
