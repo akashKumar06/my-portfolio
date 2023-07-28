@@ -1,4 +1,5 @@
 .education{
+    width:100%;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -10,15 +11,26 @@
 }
 
 .container{
+    width:100%;
     display: flex;
-    flex-flow: row ;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.container div{
-    padding: 1rem;
+.items{
+    padding: 0 0.7rem;
+    width:55%;
     border:2px solid rgb(75, 74, 74);
+    border-radius: 0.7rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:0.7rem;
 }
 
-.container div h3{
-    text-align: center;
+.items h3{
+    margin-right:2rem;
+    flex-basis:60%;
 }

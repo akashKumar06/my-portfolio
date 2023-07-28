@@ -4,6 +4,7 @@ import Main from './components/Main';
 import Education from './components/Education';
 import Projects from "./components/Projects";
 import TechStack from "./components/TechStack";
+import Footer from './components/Footer';
 function App() {
   return (
     <>
@@ -12,7 +13,7 @@ function App() {
       <TechStack/>
       <Projects />
       <Education />
-
+      <Footer/>
     </>
   );
 }

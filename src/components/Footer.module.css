@@ -1,0 +1,28 @@
+.footer{
+    margin-top:5rem;
+    padding-bottom: 2rem;
+    background-color: #ccc;
+    width:100%;
+    min-height:5rem;
+    display: flex;
+    flex-flow:column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer h3{
+    font-size:1.5rem;
+}
+
+.footer a{
+    margin: 0 1.5rem;
+}
+
+.footer a img {
+    width:3rem;
+}
+
+.footer a img:hover{
+    border-radius: 1rem;
+    background-color: #a7a7a7;
+}
