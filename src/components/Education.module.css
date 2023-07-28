@@ -1,0 +1,24 @@
+.education{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.education h2{
+    font-size: 3rem;
+}
+
+.container{
+    display: flex;
+    flex-flow: row ;
+}
+
+.container div{
+    padding: 1rem;
+    border:2px solid rgb(75, 74, 74);
+}
+
+.container div h3{
+    text-align: center;
+}

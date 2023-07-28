@@ -1,8 +1,17 @@
-
-import './App.css';
-
+import "./App.css";
+import Navbar from './components/Navbar';
+import Main from './components/Main';
+import Education from './components/Education';
+import Projects from "./components/Projects";
 function App() {
-  return (<h1>App</h1>);
+  return (
+    <>
+      <Navbar />
+      <Main />
+      <Projects />
+      <Education />
+    </>
+  );
 }
 
 export default App;
