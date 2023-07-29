@@ -1,0 +1,52 @@
+const EduData = [
+    {
+        id:'e1',
+        degree:'MCA',
+        institute:'National Institute of Technology',
+        abbr:'Master in Computer Application',
+        place:'Jamsedhpur, Jharkhand',
+        year:'2023 - Present',
+        desc:'MCA is a postgraduate course that trains students in the various aspects of computer programs, application software, computer architecture,',
+        per:'',
+        grade:'',
+        status:false,
+    },
+    {
+        id:'e2',
+        degree:'BCA',
+        abbr:'Bachelor in Computer Application',
+        institute:'St. Xavier\'s College',
+        place:'Ranchi, Jharkhand',
+        year:'2020 - 2023',
+        desc:'BCA is a 3 year UG course that trains students in Operating Systems, Java Programming, Computer Networks, Database Management Systems, Programming Languages etc.',
+        per:'84.48%',
+        grade:'A+',
+        status:false,
+    },
+    {
+        id:'e3',
+        degree:'12th',
+        abbr:'Intermediate',
+        institute:'Surendranath Centenary School',
+        place:'Ranchi, Jharkhand',
+        year:'2020 - 2023',
+        desc:'',
+        per:'87.60%',
+        grade:'A+',
+        status:false,
+    },
+    {
+        id:'e4',
+        degree:'10th',
+        abbr:'Matriculaion',
+        institute:'Dav Public School',
+        place:'Simdega, Jharkhand',
+        year:'2017',
+        desc:'',
+        per:'10 CGPA',
+        grade:'',
+        status:false,
+    }
+];
+
+export default EduData;
