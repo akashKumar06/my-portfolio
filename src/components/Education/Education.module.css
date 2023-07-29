@@ -44,7 +44,8 @@
     border:2px solid #ccc;
     background-color: #c7c7c7;
     padding: 0.7rem; 
-    transition: all 1s;
+    transition: height 5s ease-in;
+    height: auto;
 }
 
 .content h4{
