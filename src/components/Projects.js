@@ -3,6 +3,8 @@ import expenseImg from "../assets/expense.jpg";
 import investImg from "../assets/invest.jpg";
 import reactImg from "../assets/react.jpg";
 import todoImg from "../assets/todo.jpg";
+import errorModal from "../assets/error-modal.png";
+
 const Projects = () => {
   return (
     <div className={classes.projects}>
@@ -61,6 +63,21 @@ const Projects = () => {
             <h3>React Concepts</h3>
             <a
               href="https://akashkumar06.github.io/react-concepts/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
+        <div className={classes.items}>
+          <div className={classes.image}>
+            <img src={errorModal} alt="react-img" />
+          </div>
+          <div className={classes["items-content"]}>
+            <h3>Erro Modal</h3>
+            <a
+              href="https://akashkumar06.github.io/error-modal/"
               rel="noreferrer"
               target="_blank"
             >
